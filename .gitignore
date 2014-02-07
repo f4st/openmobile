@@ -1,0 +1,42 @@
+# Android related data #
+#########################
+bin/
+gen/
+ant.properties
+local.properties
+*.apk
+*.ap_
+
+# IntelliJ-IDEA related data #
+##############################
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
+# Eclipse related data #
+########################
+.project
+.classpath
+.settings/
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+*.lnk
