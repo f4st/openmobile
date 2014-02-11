@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#ff2e79ff</color>
+    <color name="light_black">#282828</color>
+    <color name="grey">#ff858585</color>
+    <color name="green">#ff41a346</color>
+
+    <drawable name="list_item_pressed">@color/blue</drawable>
+    <drawable name="list_item_selected">@color/blue</drawable>
+    <drawable name="list_item_default">@color/light_black
+    </drawable>
+</resources>

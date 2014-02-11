@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GMaps Test Harness</string>
+
+    <!-- copyright -->
+    <string name="copyright">&#169;2013 Openmobile World Wide, Inc. All rights reserved.
+\nConfidential. Not for distribution.</string>
+    <string name="link">www.openmobileww.com</string>
+
+    <!-- Test names -->
+    <string name="map_types_test">Map types test</string>
+    <string name="map_ui_controls_test">Map UI controls test</string>
+    <string name="map_ui_gestures_test_part1">Map UI gestures test: part 1</string>
+    <string name="map_ui_gestures_test_part2">Map UI gestures test: part 2</string>
+    <string name="map_callbacks_test">Map callbacks test</string>
+    <string name="map_snapshot_test">Map snapshot test</string>
+    <string name="map_camera_update_test1">Map camera update test: part 1</string>
+    <string name="map_camera_update_test2">Map camera update test: part 2</string>
+    <string name="map_camera_update_test3">Map camera update test: part 3</string>
+    <string name="map_camera_update_test4">Map camera update test: part 4</string>
+    <string name="map_animation_stopping_test">Map animation stopping test</string>
+    <string name="map_location_source_test">Map location source test</string>
+    <string name="map_projection_test">Map projection test</string>
+    <string name="map_view_test">MapView test</string>
+    <string name="map_indoor_test">Map indoor test</string>
+    <string name="map_traffic_test">Map traffic test</string>
+    <string name="map_buildings_test">Map buildings test</string>
+    <string name="map_options_test">Map options test</string>
+    <string name="map_markers_test">Map markers test</string>
+    <string name="map_ground_overlay_test">Map ground overlay test</string>
+    <string name="map_circle_test">Map circle test</string>
+    <string name="map_polygon_test">Map polygon test</string>
+    <string name="map_polyline_test">Map polyline test</string>
+    <string name="map_tiles_test">Map tiles test</string>
+    <string name="bitmap_descriptor_test1">BitmapDescriptor test: part 1</string>
+    <string name="bitmap_descriptor_test2">BitmapDescriptor test: part 2</string>
+    <string name="bitmap_descriptor_test3">BitmapDescriptor test: part 3</string>
+    <string name="bitmap_descriptor_test4">BitmapDescriptor test: part 4</string>
+    <string name="bitmap_descriptor_test5">BitmapDescriptor test: part 5</string>
+
+    <!-- Start activity -->
+    <string name="tests_list_title">Select test from list below:</string>
+
+    <!-- Map types test activity -->
+    <string name="map_type_normal">Normal</string>
+    <string name="map_type_satellite">Satellite</string>
+    <string name="map_type_terrain">Terrain</string>
+    <string name="map_type_hybrid">Hybrid</string>
+
+    <!-- Map UI controls test activity -->
+    <string name="turn_on_zoom_controls">Turn on zoom controls</string>
+    <string name="turn_off_zoom_controls">Turn off zoom controls</string>
+    <string name="turn_on_compass">Turn on compass</string>
+    <string name="turn_off_compass">Turn off compass</string>
+    <string name="turn_on_user_location_controls">Turn on user location button</string>
+    <string name="turn_off_user_location_controls">Turn off user location button</string>
+
+    <!-- Map UI gestures test activity -->
+    <string name="enable_all_gestures">Enable all gestures</string>
+    <string name="disable_all_gestures">Disable all gestures</string>
+    <string-array name="map_ui_gestures">
+        <item>Rotate</item>
+        <item>Scroll</item>
+        <item>Tilt</item>
+        <item>Zoom</item>
+    </string-array>
+
+    <!-- Map snapshot test activity -->
+    <string name="take_snapshot_button_1">Take snapshot (1)</string>
+    <string name="take_snapshot_button_2">Take snapshot (2)</string>
+
+    <!-- Map camera update test: part 1 -->
+    <string name="scroll_by">scrollBy</string>
+    <string name="zoom_by1">zoomBy (1)</string>
+    <string name="zoom_by2">zoomBy (2)</string>
+
+    <!-- Map camera update test: part 2 -->
+    <string name="zoom_in">zoomIn</string>
+    <string name="zoom_out">zoomOut</string>
+    <string name="zoom_to">zoomTo</string>
+
+    <!-- Map camera update test: part 3 -->
+    <string name="new_camera_position">newCameraPosition</string>
+    <string name="new_lat_lng">newLatLng</string>
+
+    <!-- Map camera update test: part 4 -->
+    <string name="new_lat_lng_bounds1">newLatLngBounds (1)</string>
+    <string name="new_lat_lng_bounds2">newLatLngBounds (2)</string>
+    <string name="new_lat_lng_zoom">newLatLngZoom</string>
+
+    <!-- Map animation stopping test activity -->
+    <string name="animate_to_a">Animate to point A</string>
+    <string name="animate_to_b">Animate to point B</string>
+    <string name="stop_animation">Stop animation</string>
+
+    <!-- Map location source test activity -->
+    <string name="get_user_location">Show user location coordinates</string>
+
+    <!-- Map projection test activity -->
+    <string name="from_screen_location">Convert from screen location</string>
+    <string name="get_visible_region">Show visible region coordinates</string>
+
+    <!-- MapVIew test activity -->
+    <string name="get_min_zoom_level">Show min zoom level</string>
+    <string name="get_max_zoom_level">Show max zoom level</string>
+
+    <!-- Map indoor test -->
+    <string name="enable_indoor">Enable indoor</string>
+    <string name="disable_indoor">Disable indoor</string>
+
+    <!-- Map traffic test -->
+    <string name="enable_buildings">Enable buildings</string>
+    <string name="disable_buildings">Disable buildings</string>
+
+    <!-- Map buildings test -->
+    <string name="enable_traffic">Enable traffic</string>
+    <string name="disable_traffic">Disable traffic</string>
+
+    <!-- Map options test -->
+    <string name="get_map_options">Show map options</string>
+
+    <!-- Map markers test -->
+    <string name="create_marker">Create marker</string>
+    <string name="transform_marker">Transform marker</string>
+    <string name="delete_marker">Delete marker</string>
+
+    <!-- Map ground overlay test -->
+    <string name="create_ground_overlay">Create GroundOverlay</string>
+    <string name="transform_overlay">Transform GroundOverlay</string>
+    <string name="delete_ground_overlay">Delete GroundOverlay</string>
+
+    <!-- Map circle test -->
+    <string name="create_circle">Create circle</string>
+    <string name="transform_circle">Transform circle</string>
+    <string name="delete_circle">Delete circle</string>
+
+    <!-- Map polygon test -->
+    <string name="create_polygon">Create polygon</string>
+    <string name="transform_polygon">Transform polygon</string>
+    <string name="delete_polygon">Delete polygon</string>
+
+    <!-- Map polyline test -->
+    <string name="create_polyline">Create polyline</string>
+    <string name="transform_polyline">Transform polyline</string>
+    <string name="delete_polyline">Delete polyline</string>
+
+    <!-- Map TileOverlay test -->
+    <string name="create_tile">Create TileOverlay</string>
+    <string name="delete_tile">Delete TileOverlay</string>
+
+    <!-- Map bitmap descriptor test -->
+    <string name="draw_bitmap">Draw bitmap</string>
+    <string name="clear_map">Clear map</string>
+</resources>
