@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GoogleMapsV1Sample1</string>
+    <string name="google_maps_v1_api_key">0omH-ed_t-ISnzi1zMKANfuNQbNjlkCgVIfLR8A</string>
+
+    <!-- tests menu -->
+    <string name="test_list_title">Select test from list below</string>
+
+    <!-- test names -->
+    <string name="map_type_test">Map type test</string>
+    <string name="map_manipulating_test1">Map manipulating test 1</string>
+    <string name="map_manipulating_test2">Map manipulating test 2</string>
+    <string name="map_motion_events_test">Map motion events test</string>
+    <string name="user_location_test">User location test</string>
+    <string name="itemized_overlay_test">ItemizedOverlay test</string>
+    <string name="itemized_overlay_focus_test">ItemizedOverlay focus test</string>
+    <string name="itemized_overlay_focus_change_test">ItemizedOverlay focus change test</string>
+    <string name="drawing_test">Drawing test</string>
+    <string name="map_projection_test">Map projection test</string>
+    <string name="scroll_stress_test">Map scrolling stress test</string>
+    <string name="animate_stress_test">Map animation stress test</string>
+    <string name="zoom_stress_test">Map zoom stress test</string>
+    <string name="itemized_overlay_stress_test">Map overlays stress
+        test</string>
+    <string name="stop_animation_test">Animation stopping test</string>
+
+    <!-- activity with map type test -->
+    <string name="cant_change_map_type_message">MapView is not instance
+        of com.google.android.maps.MapView. Satellite and
+        Traffic views are not available.</string>
+    <string name="map_satellite">Satellite</string>
+    <string name="map_street_view">Street view</string>
+    <string name="map_traffic_on">Turn on traffic</string>
+    <string name="map_traffic_off">Turn off traffic</string>
+
+    <!-- activity with map manipulation test -->
+    <string name="point_a">Animate to point A</string>
+    <string name="point_b">Animate to point B</string>
+    <string name="zoom_in">Zoom in</string>
+    <string name="zoom_out">Zoom out</string>
+    <string name="stop_animation">Stop animation</string>
+
+    <!-- activity with map drawing test -->
+    <string name="draw_lines">Draw lines</string>
+    <string name="draw_bitmap">Draw bitmap</string>
+
+    <!-- activity with MyLocationOverlay -->
+    <string name="user_location_button">Animate to user location</string>
+
+    <!-- activity with ItemizedOverlayTestActivity -->
+    <string name="cant_get_overlay_center_message">ItemizedOverlay.getCenter()
+        method is unavailable.</string>
+
+    <!-- Stress tests -->
+    <string name="start_test_button">Start test</string>
+
+    <!-- Activity with overlay focus test -->
+    <string name="get_overlay_coordinates">Show overlay coordinates</string>
+    <string name="get_overlay_focus">Show overlay focused item</string>
+    <string name="get_overlay_last_focused_item">Show overlay last
+        focused item</string>
+    <string name="overlay_next_focus">Next focus</string>
+</resources>

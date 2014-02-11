@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.maps.MapView
+        android:id="@+id/map_view"
+        android:layout_above="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:apiKey="@string/google_maps_v1_api_key"
+        />
+
+    <LinearLayout
+        android:id="@+id/tabs"
+        android:layout_alignParentBottom="true"
+        android:layout_height="80dp"
+        android:layout_width="match_parent">
+
+        <Button
+            android:id="@+id/tab_satellite_street_view"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/map_satellite"/>
+
+        <Button
+            android:id="@+id/tab_traffic"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/map_traffic_on"/>
+    </LinearLayout>
+</RelativeLayout>

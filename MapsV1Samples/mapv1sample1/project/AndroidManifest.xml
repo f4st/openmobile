@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.softserve.maps"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19"/>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@android:style/Theme">
+
+        <uses-library android:name="com.google.android.maps"/>
+
+        <activity android:name=".activities.LaunchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.MapTypesTestActivity"
+            android:label="@string/map_type_test"/>
+        <activity
+            android:name=".activities.MapManipulationTest1Activity"
+            android:label="@string/map_manipulating_test1"/>
+        <activity
+            android:name=".activities.MapManipulationTest2Activity"
+            android:label="@string/map_manipulating_test2"/>
+        <activity
+            android:name=".activities.MapEventsTestActivity"
+            android:label="@string/map_motion_events_test"/>
+        <activity
+            android:name=".activities.UserLocationTestActivity"
+            android:label="@string/user_location_test"/>
+        <activity
+            android:name=".activities.ItemizedOverlayTestActivity"
+            android:label="@string/itemized_overlay_test"/>
+        <activity
+            android:name=".activities.MapDrawingTestActivity"
+            android:label="@string/drawing_test"/>
+        <activity
+            android:name=".activities.OverlayItemFocusChangeTestActivity"
+            android:label="@string/itemized_overlay_focus_change_test"/>
+        <activity
+            android:name=".activities.MapProjectionTestActivity"
+            android:label="@string/map_projection_test"/>
+        <activity
+            android:name=".stresstests.ScrollStressTest"
+            android:label="@string/scroll_stress_test"/>
+        <activity
+            android:name=".stresstests.AnimateStressTest"
+            android:label="@string/animate_stress_test"/>
+        <activity
+            android:name=".stresstests.ZoomStressTest"
+            android:label="@string/zoom_stress_test"/>
+        <activity
+            android:name=".stresstests.ItemizedOverlayStressTest"
+            android:label="@string/itemized_overlay_stress_test"/>
+        <activity
+            android:name=".activities.MapStopAnimationTest"
+            android:label="@string/stop_animation_test"/>
+        <activity
+            android:name=".activities.ItemizedOverlayFocusTestActivity"
+            android:label="@string/itemized_overlay_focus_test"/>
+
+    </application>
+</manifest>

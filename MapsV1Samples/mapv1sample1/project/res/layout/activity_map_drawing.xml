@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.maps.MapView
+        android:id="@+id/map_view"
+        android:layout_above="@+id/controls_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:apiKey="@string/google_maps_v1_api_key"
+        />
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:id="@+id/controls_layout"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ff858585">
+
+        <LinearLayout
+            android:layout_height="80dp"
+            android:layout_width="match_parent">
+
+            <Button
+                android:id="@+id/draw_lines"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:text="@string/draw_lines"/>
+
+            <Button
+                android:id="@+id/draw_bitmap"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:text="@string/draw_bitmap"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
